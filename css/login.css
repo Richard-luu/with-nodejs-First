@@ -1,0 +1,13 @@
+.login {
+  margin: 100px auto;
+  width: 400px;
+  height: 300px;
+  background-color: white;
+  border-radius: 10%;
+}
+.login form {
+  margin: 80px 50px;
+}
+.login .pwd {
+  margin-top: 50px;
+}

@@ -1,0 +1,148 @@
+.lv-main {
+    display: flex;
+    background-color: white;
+    height: 100%;
+
+    /* 
+    ******************* 主体左边导航    *************
+    */
+    .main-left {
+        width: 200px;
+        height: 100%;
+        border-right: 2px solid #ccc;
+
+        ul {
+            width: 100%;
+            height: 100%;
+
+            li {
+                width: 100%;
+                text-indent: 20px;
+                margin-top: 40px;
+
+                a {
+                    font-size: 25px;
+                    text-align: center;
+                }
+            }
+
+            .active {
+                color: red;
+            }
+        }
+
+    }
+
+    /* 
+    ******************* 主体右边    *************
+    */
+    .main-right {
+        flex: 1;
+        padding: 0px 20px;
+        position: relative;
+
+        .btn {
+            margin-top: 40px;
+        }
+
+        /* 
+            *******************     新增管理   *************
+*/
+        .newBrand {
+            display: none;
+            position: absolute;
+            z-index: 999;
+            border: 1px solid #ccc;
+            width: 700px;
+            height: 400px;
+            background-color: #ccc;
+            border-radius: 2%;
+            left: 110px;
+            top: 70px;
+        }
+
+        /* 
+    *******************     修改管理   *************
+*/
+        .brandUpdate {
+            display: none;
+            position: absolute;
+            z-index: 999;
+            border: 1px solid #ccc;
+            width: 700px;
+            height: 400px;
+            background-color: #ccc;
+            border-radius: 2%;
+            left: 110px;
+            top: 70px;
+        }
+
+
+        /* 
+    *******************     品牌管理   *************
+*/
+
+        form {
+            margin-top: 40px;
+            text-align: center;
+            height: 100%;
+            width: 100%;
+
+            .form-group {
+                .control-label {
+                    margin-top: 10px;
+                }
+
+                .form-control {
+                    margin-top: 5px;
+                }
+            }
+        }
+
+        table {
+            //调试先隐藏
+            // display: none;
+            margin-top: 20px;
+            text-align: center;
+            width: 100%;
+            vertical-align: middle;
+
+            th {
+                text-align: center;
+            }
+
+            tbody {
+                th {
+                    line-height: 70px;
+                }
+
+                tr {
+                    td {
+                        line-height: 70px;
+                    }
+
+                    .noneId {
+                        display: none;
+                    }
+                }
+
+                .img_row {
+                    img {
+                        width: 70px;
+                        height: 70px;
+                    }
+                }
+
+                tr:hover {
+                    background-color: aqua;
+                }
+            }
+        }
+
+        nav {
+            float: right;
+            margin-right: 20px;
+        }
+
+    }
+}

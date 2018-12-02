@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>登录</title>
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../lib/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/common.css">
+    <link rel="stylesheet" href="../css/login.css">
+</head>
+
+<body>
+    <div class="container">
+        <!-- 头部 -->
+        <div class="lv-head">
+            <div class="left">
+                <a href="#" class="logo">千峰后台管理系统</a>
+                <span class="glyphicon glyphicon-home"></span>
+            </div>
+            <div class="right">
+                <span class="glyphicon glyphicon-user"></span>
+                <span class="wellcome">千峰，欢迎您</span>
+                <button class="btn btn-primary">关于</button>
+            </div>
+        </div>
+
+        <!-- 主体 -->
+        <div class="login">
+            <form action="#" method="POST">
+                <label class="userName">
+                    <span>用户名：</span>
+                    <input type="text" name="userName" placeholder="请输入用户名">
+                </label>
+                <br>
+                <label class="pwd">
+                    <span>密&nbsp;&nbsp;&nbsp;码：</span>
+                    <input type="password" name="pwd" placeholder="请输入密码">
+                </label>
+
+                <input type="submit" value="登录" onclick="return logSubmit()">
+                <br>
+                <br>
+                <a href="register.html">还没有账号，立即注册</a>
+            </form>
+        </div>
+
+    </div>
+
+    <script src="../js/jquery.min.js"></script>
+    <script src="../js/login.js"></script>
+</body>
+
+</html>

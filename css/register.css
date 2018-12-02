@@ -1,0 +1,21 @@
+.register {
+  margin: 100px auto;
+  width: 600px;
+  height: 500px;
+  background-color: white;
+  border-radius: 10%;
+}
+.register form {
+  width: 100%;
+  height: 100%;
+  margin: 50px 70px;
+}
+.register form .form-control {
+  width: 300px;
+}
+.register form .form-group .control-label {
+  margin-top: 10px;
+}
+.register form .form-group input {
+  margin-top: 5px;
+}

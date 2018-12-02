@@ -1,0 +1,115 @@
+@charset "UTF-8";
+.lv-main {
+  display: flex;
+  background-color: white;
+  height: 100%;
+  /* 
+  ******************* 主体左边导航    *************
+  */
+  /* 
+  ******************* 主体右边    *************
+  */
+}
+.lv-main .main-left {
+  width: 200px;
+  height: 100%;
+  border-right: 2px solid #ccc;
+}
+.lv-main .main-left ul {
+  width: 100%;
+  height: 100%;
+}
+.lv-main .main-left ul li {
+  width: 100%;
+  text-indent: 20px;
+  margin-top: 40px;
+}
+.lv-main .main-left ul li a {
+  font-size: 25px;
+  text-align: center;
+}
+.lv-main .main-left ul .active {
+  color: red;
+}
+.lv-main .main-right {
+  flex: 1;
+  padding: 0px 20px;
+  position: relative;
+        /* 
+            *******************     新增管理   *************
+*/
+        /* 
+    *******************     修改管理   *************
+*/
+        /* 
+    *******************     品牌管理   *************
+*/
+}
+.lv-main .main-right .btn {
+  margin-top: 40px;
+}
+.lv-main .main-right .newBrand {
+  display: none;
+  position: absolute;
+  z-index: 999;
+  border: 1px solid #ccc;
+  width: 700px;
+  height: 400px;
+  background-color: #ccc;
+  border-radius: 2%;
+  left: 110px;
+  top: 70px;
+}
+.lv-main .main-right .brandUpdate {
+  display: none;
+  position: absolute;
+  z-index: 999;
+  border: 1px solid #ccc;
+  width: 700px;
+  height: 400px;
+  background-color: #ccc;
+  border-radius: 2%;
+  left: 110px;
+  top: 70px;
+}
+.lv-main .main-right form {
+  margin-top: 40px;
+  text-align: center;
+  height: 100%;
+  width: 100%;
+}
+.lv-main .main-right form .form-group .control-label {
+  margin-top: 10px;
+}
+.lv-main .main-right form .form-group .form-control {
+  margin-top: 5px;
+}
+.lv-main .main-right table {
+  margin-top: 20px;
+  text-align: center;
+  width: 100%;
+  vertical-align: middle;
+}
+.lv-main .main-right table th {
+  text-align: center;
+}
+.lv-main .main-right table tbody th {
+  line-height: 70px;
+}
+.lv-main .main-right table tbody tr td {
+  line-height: 70px;
+}
+.lv-main .main-right table tbody tr .noneId {
+  display: none;
+}
+.lv-main .main-right table tbody .img_row img {
+  width: 70px;
+  height: 70px;
+}
+.lv-main .main-right table tbody tr:hover {
+  background-color: aqua;
+}
+.lv-main .main-right nav {
+  float: right;
+  margin-right: 20px;
+}
